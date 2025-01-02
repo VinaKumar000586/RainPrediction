@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Prediction</title>
+</head>
+<body>
+    <h1>Rain Prediction</h1>
+
+    <!-- Form for user input -->
+    <form method="POST">
+        <label for="Temperature">Temperature:</label>
+        <input type="number" id="Temperature" name="Temperature" required><br><br>
+
+        <label for="Humidity">Humidity:</label>
+        <input type="number" id="Humidity" name="Humidity" required><br><br>
+
+        <label for="Wind_Speed">Wind Speed:</label>
+        <input type="number" id="Wind_Speed" name="Wind_Speed" required><br><br>
+
+        <label for="Cloud_Cover">Cloud Cover:</label>
+        <input type="number" id="Cloud_Cover" name="Cloud_Cover" required><br><br>
+
+        <label for="Pressure">Pressure:</label>
+        <input type="number" id="Pressure" name="Pressure" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <!-- Display the result if available -->
+    {% if result %}
+        <h2>Prediction: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
