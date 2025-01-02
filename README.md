@@ -2,9 +2,7 @@
 
 This project uses machine learning to predict whether it will rain based on input features such as temperature, humidity, wind speed, and others.
 
-## Live Demo
 
-You can access the live prediction app here: (http://127.0.0.1:5000/) 
 
 ##Rain Prediction Project Explanation
 This project is a Rain Prediction System that uses machine learning to predict whether it will rain based on various environmental parameters. The system takes input values like temperature, humidity, wind speed, cloud cover, and pressure, processes them using a pre-trained machine learning model, and outputs whether it will rain or not.
